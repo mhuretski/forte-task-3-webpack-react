@@ -1,0 +1,4 @@
+/.idea
+cra/node_modules
+cra/package-lock.json
+cra/build
