@@ -1,3 +1,7 @@
 /.idea
 webpack-project/node_modules
 webpack-project/package-lock.json
+webpack-project/dist
+cra/node_modules
+cra/package-lock.json
+cra/build
