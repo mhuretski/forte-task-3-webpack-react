@@ -12,13 +12,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: [
-          'style-loader',
-          'css-loader',
-        ],
-      },
-      {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
           'file-loader',
@@ -29,9 +22,5 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({template: './src/index.html'})
-  ],
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    hot: true,
-  }
+  ]
 };
